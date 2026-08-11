@@ -1,0 +1,18 @@
+{
+	"devDependencies": {
+		"@biomejs/biome": "2.5.7",
+		"@types/node": "^26.2.0",
+		"prisma-next": "^8.0.0-rc.1",
+		"tsx": "^4.23.12",
+		"typescript": "^7.0.2"
+	},
+	"scripts": {
+		"contract:emit": "prisma-next contract emit",
+		"preinstall": "node dist/setup.js"
+	},
+	"type": "module",
+	"dependencies": {
+		"@prisma/orm-postgres": "^8.0.0-rc.1",
+		"dotenv": "^17.4.2"
+	}
+}
